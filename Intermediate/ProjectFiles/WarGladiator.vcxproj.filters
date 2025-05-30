@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WarGladiator.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WarGladiator.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WarGladiatorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\LICENSE.txt" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\shadertoolsconfig.json" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\.editorconfig">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WarGladiator">
+      <UniqueIdentifier>{71C4A6BC-4500-3472-94A3-E875F34D23BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WarGladiator\WarGladiator.Build.cs">
+      <Filter>Source\WarGladiator</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WarGladiator\WarGladiator.cpp">
+      <Filter>Source\WarGladiator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\WarGladiator.h">
+      <Filter>Source\WarGladiator</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private">
+      <UniqueIdentifier>{98122230-8833-33C7-852D-B060971EE90E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\GladiatorFunctionLibrary.cpp">
+      <Filter>Source\WarGladiator\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\GladiatorGameplayTags.cpp">
+      <Filter>Source\WarGladiator\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\AbilitySystem">
+      <UniqueIdentifier>{81859227-89A3-3FD3-A7AC-9C319DBD79B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AbilitySystem\GladiatorAbilitySystemComponent.cpp">
+      <Filter>Source\WarGladiator\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AbilitySystem\GladiatorAttributeSet.cpp">
+      <Filter>Source\WarGladiator\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\AbilitySystem\Abilites">
+      <UniqueIdentifier>{251B2707-73F1-3032-9C15-D5F7F8757ACD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AbilitySystem\Abilites\GladiatorEnemyGameplayAbility.cpp">
+      <Filter>Source\WarGladiator\Private\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AbilitySystem\Abilites\GladiatorGameplayAbility.cpp">
+      <Filter>Source\WarGladiator\Private\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AbilitySystem\Abilites\GladiatorPlayerGameplayAbility.cpp">
+      <Filter>Source\WarGladiator\Private\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\AnimInstances">
+      <UniqueIdentifier>{1C8AFE22-3667-3E81-9713-D8B730B1C6A3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AnimInstances\GladiatorBaseAnimInstance.cpp">
+      <Filter>Source\WarGladiator\Private\AnimInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AnimInstances\GladiatorCharacterAnimInstance.cpp">
+      <Filter>Source\WarGladiator\Private\AnimInstances</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\AnimInstances\Player">
+      <UniqueIdentifier>{6AEEF6BD-45E7-3774-8FA7-1EB29FD55737}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AnimInstances\Player\GladiatorPlayerAnimInstance.cpp">
+      <Filter>Source\WarGladiator\Private\AnimInstances\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\AnimInstances\Player\GladiatorPlayerLinkedAnimLayer.cpp">
+      <Filter>Source\WarGladiator\Private\AnimInstances\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Characters">
+      <UniqueIdentifier>{0283AF74-B1EC-3485-9057-94C369536D7D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Characters\GladiatorBaseCharacter.cpp">
+      <Filter>Source\WarGladiator\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Characters\GladiatorEnemyCharacter.cpp">
+      <Filter>Source\WarGladiator\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Characters\GladiatorPlayerCharacter.cpp">
+      <Filter>Source\WarGladiator\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Components">
+      <UniqueIdentifier>{502FAEBE-2ABB-3D8F-8ED4-AF0951AEA53C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Components\PawnExtensionComponentBase.cpp">
+      <Filter>Source\WarGladiator\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Components\Combat">
+      <UniqueIdentifier>{0E46C20B-4A2E-3634-BE89-1BE2AD5EA1D9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Components\Combat\EnemyCombatComponent.cpp">
+      <Filter>Source\WarGladiator\Private\Components\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Components\Combat\HeroCombatComponent.cpp">
+      <Filter>Source\WarGladiator\Private\Components\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Components\Combat\PawnCombatComponent.cpp">
+      <Filter>Source\WarGladiator\Private\Components\Combat</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Components\Input">
+      <UniqueIdentifier>{F1921451-8BFA-3415-AFBF-FFB80A003115}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Components\Input\GladiatorInputComponent.cpp">
+      <Filter>Source\WarGladiator\Private\Components\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Controllers">
+      <UniqueIdentifier>{D2FD6B90-15EB-39FA-837F-0FC6096BBF2E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Controllers\GladiatorHeroController.cpp">
+      <Filter>Source\WarGladiator\Private\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Controllers\GladiatorPlayerController.cpp">
+      <Filter>Source\WarGladiator\Private\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Controllers\MyGladiatorPlayerController.cpp">
+      <Filter>Source\WarGladiator\Private\Controllers</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Data Assets">
+      <UniqueIdentifier>{69267B8C-258E-34BC-BB38-959C24E3B86B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WarGladiator\Private\Data Assets\Input">
+      <UniqueIdentifier>{64F93690-7984-3C67-A48B-9937C23688EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Data Assets\Input\DA_InputConfig.cpp">
+      <Filter>Source\WarGladiator\Private\Data Assets\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Data Assets\StartUpData">
+      <UniqueIdentifier>{04E3167F-A98A-360E-BC6E-976B8E721070}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Data Assets\StartUpData\DA_EnemyStartUpDataBase.cpp">
+      <Filter>Source\WarGladiator\Private\Data Assets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Data Assets\StartUpData\DA_PlayerStartUpData.cpp">
+      <Filter>Source\WarGladiator\Private\Data Assets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Data Assets\StartUpData\DA_StartUpDataBase.cpp">
+      <Filter>Source\WarGladiator\Private\Data Assets\StartUpData</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\GameModes">
+      <UniqueIdentifier>{CA8CBC55-A220-37B3-8647-E6320FBDF0BD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\GameModes\WarGladiatorBaseGameMode.cpp">
+      <Filter>Source\WarGladiator\Private\GameModes</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\GladiatorTypes">
+      <UniqueIdentifier>{4ADF9D60-1672-307F-9432-34D51E55D30A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\GladiatorTypes\GladiatorStructTypes.cpp">
+      <Filter>Source\WarGladiator\Private\GladiatorTypes</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Private\Items">
+      <UniqueIdentifier>{64F8953E-4EBC-31AC-AD64-6F3446936F08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WarGladiator\Private\Items\Weapons">
+      <UniqueIdentifier>{129E3670-C346-3F7B-B5E3-18C793D84E40}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Items\Weapons\GladiatorPlayerWeapon.cpp">
+      <Filter>Source\WarGladiator\Private\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Private\Items\Weapons\GladiatorWeaponBase.cpp">
+      <Filter>Source\WarGladiator\Private\Items\Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public">
+      <UniqueIdentifier>{268FE765-411F-3D04-A7C1-DE4E8842341B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\GladiatorDebugHelper.h">
+      <Filter>Source\WarGladiator\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\GladiatorFunctionLibrary.h">
+      <Filter>Source\WarGladiator\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\GladiatorGameplayTags.h">
+      <Filter>Source\WarGladiator\Public</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\AbilitySystem">
+      <UniqueIdentifier>{73DA7AEC-CDFA-39EA-A051-A9E87C07FC57}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AbilitySystem\GladiatorAbilitySystemComponent.h">
+      <Filter>Source\WarGladiator\Public\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AbilitySystem\GladiatorAttributeSet.h">
+      <Filter>Source\WarGladiator\Public\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\AbilitySystem\Abilites">
+      <UniqueIdentifier>{1019826D-E2BF-3887-998A-E53C2010C625}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AbilitySystem\Abilites\GladiatorEnemyGameplayAbility.h">
+      <Filter>Source\WarGladiator\Public\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AbilitySystem\Abilites\GladiatorGameplayAbility.h">
+      <Filter>Source\WarGladiator\Public\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AbilitySystem\Abilites\GladiatorPlayerGameplayAbility.h">
+      <Filter>Source\WarGladiator\Public\AbilitySystem\Abilites</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\AnimInstances">
+      <UniqueIdentifier>{F7EDA517-124A-3612-B050-5F30B4979A5D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AnimInstances\GladiatorBaseAnimInstance.h">
+      <Filter>Source\WarGladiator\Public\AnimInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AnimInstances\GladiatorCharacterAnimInstance.h">
+      <Filter>Source\WarGladiator\Public\AnimInstances</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\AnimInstances\Player">
+      <UniqueIdentifier>{72EFE1A6-4C44-37D3-B3FC-9B13CC357BD7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AnimInstances\Player\GladiatorPlayerAnimInstance.h">
+      <Filter>Source\WarGladiator\Public\AnimInstances\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\AnimInstances\Player\GladiatorPlayerLinkedAnimLayer.h">
+      <Filter>Source\WarGladiator\Public\AnimInstances\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Characters">
+      <UniqueIdentifier>{54709F08-7608-308F-B309-E70CE7E14266}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Characters\GladiatorBaseCharacter.h">
+      <Filter>Source\WarGladiator\Public\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Characters\GladiatorEnemyCharacter.h">
+      <Filter>Source\WarGladiator\Public\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Characters\GladiatorPlayerCharacter.h">
+      <Filter>Source\WarGladiator\Public\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Components">
+      <UniqueIdentifier>{FB2DD0D7-9E8B-3EED-B2A1-B8E6D7A76C4E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Components\PawnExtensionComponentBase.h">
+      <Filter>Source\WarGladiator\Public\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Components\Combat">
+      <UniqueIdentifier>{9964B618-99C2-384B-A844-48A8ABF23C8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Components\Combat\EnemyCombatComponent.h">
+      <Filter>Source\WarGladiator\Public\Components\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Components\Combat\HeroCombatComponent.h">
+      <Filter>Source\WarGladiator\Public\Components\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Components\Combat\PawnCombatComponent.h">
+      <Filter>Source\WarGladiator\Public\Components\Combat</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Components\Input">
+      <UniqueIdentifier>{0EA20352-8CAF-3A8D-9A4A-1DA449179202}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Components\Input\GladiatorInputComponent.h">
+      <Filter>Source\WarGladiator\Public\Components\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Controllers">
+      <UniqueIdentifier>{0D93059F-284C-3E95-8FA3-C3E380EF9CAB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Controllers\GladiatorHeroController.h">
+      <Filter>Source\WarGladiator\Public\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Controllers\GladiatorPlayerController.h">
+      <Filter>Source\WarGladiator\Public\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Controllers\MyGladiatorPlayerController.h">
+      <Filter>Source\WarGladiator\Public\Controllers</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Data Assets">
+      <UniqueIdentifier>{48C9C144-ED82-3B95-8F69-3CA34821CC23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WarGladiator\Public\Data Assets\Input">
+      <UniqueIdentifier>{9B8340C4-5613-377D-8FD5-7469A02B49EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Data Assets\Input\DA_InputConfig.h">
+      <Filter>Source\WarGladiator\Public\Data Assets\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Data Assets\StartUpData">
+      <UniqueIdentifier>{D3FA17A0-940D-3D03-A729-C845501A5514}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Data Assets\StartUpData\DA_EnemyStartUpDataBase.h">
+      <Filter>Source\WarGladiator\Public\Data Assets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Data Assets\StartUpData\DA_PlayerStartUpData.h">
+      <Filter>Source\WarGladiator\Public\Data Assets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Data Assets\StartUpData\DA_StartUpDataBase.h">
+      <Filter>Source\WarGladiator\Public\Data Assets\StartUpData</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\GameModes">
+      <UniqueIdentifier>{9C78EB72-CC37-314D-9DF6-031017AAF70D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\GameModes\WarGladiatorBaseGameMode.h">
+      <Filter>Source\WarGladiator\Public\GameModes</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\GladiatorTypes">
+      <UniqueIdentifier>{C43AC429-754A-3F56-A767-FBD80D75F39A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\GladiatorTypes\GladiatorStructTypes.h">
+      <Filter>Source\WarGladiator\Public\GladiatorTypes</Filter>
+    </ClCompile>
+    <Filter Include="Source\WarGladiator\Public\Items">
+      <UniqueIdentifier>{22F41740-B3D0-3B37-8AD2-A372C5D724E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WarGladiator\Public\Items\Weapons">
+      <UniqueIdentifier>{C7DD7124-034F-3EAA-BC90-DF5652B39AB8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Items\Weapons\GladiatorPlayerWeapon.h">
+      <Filter>Source\WarGladiator\Public\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WarGladiator\Public\Items\Weapons\GladiatorWeaponBase.h">
+      <Filter>Source\WarGladiator\Public\Items\Weapons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
