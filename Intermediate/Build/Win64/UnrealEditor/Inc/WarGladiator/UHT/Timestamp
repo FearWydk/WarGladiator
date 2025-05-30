@@ -1,0 +1,29 @@
+C:\UE\WarGladiator\Source\WarGladiator\Public\GladiatorFunctionLibrary.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AbilitySystem\Abilites\GladiatorEnemyGameplayAbility.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AnimInstances\GladiatorBaseAnimInstance.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AbilitySystem\Abilites\GladiatorGameplayAbility.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AnimInstances\Player\GladiatorPlayerAnimInstance.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Components\PawnExtensionComponentBase.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Characters\GladiatorPlayerCharacter.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Components\Combat\PawnCombatComponent.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Characters\GladiatorBaseCharacter.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Data Assets\StartUpData\DA_EnemyStartUpDataBase.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Controllers\GladiatorPlayerController.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Data Assets\StartUpData\DA_PlayerStartUpData.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Data Assets\Input\DA_InputConfig.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Items\Weapons\GladiatorPlayerWeapon.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Items\Weapons\GladiatorWeaponBase.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AbilitySystem\GladiatorAttributeSet.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Components\Combat\EnemyCombatComponent.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AnimInstances\GladiatorCharacterAnimInstance.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AnimInstances\Player\GladiatorPlayerLinkedAnimLayer.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Controllers\GladiatorHeroController.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AbilitySystem\GladiatorAbilitySystemComponent.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\AbilitySystem\Abilites\GladiatorPlayerGameplayAbility.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Components\Combat\HeroCombatComponent.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Characters\GladiatorEnemyCharacter.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Components\Input\GladiatorInputComponent.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Controllers\MyGladiatorPlayerController.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\GameModes\WarGladiatorBaseGameMode.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\Data Assets\StartUpData\DA_StartUpDataBase.h
+C:\UE\WarGladiator\Source\WarGladiator\Public\GladiatorTypes\GladiatorStructTypes.h
